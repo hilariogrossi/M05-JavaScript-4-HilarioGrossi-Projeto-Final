@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="http://hilariogrossi.codefico1.software/Eu_2.jpeg">
+        <title>Jogo da Velha</title>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Jogo da Velha</h1>
+
+            <ul class="ul">
+                <li><p>O jogo da velha ou jogo do galo ou três em linha é um jogo e/ou passatempo popular.</p></li>
+                <li><p>É um jogo de regras extremamente simples, que não traz grandes dificuldades para seus jogadores e é facilmente aprendido.</p></li>
+                <li><p>A origem é desconhecida, com indicações de que pode ter começado no antigo Egito, onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos.</p></li>
+                <li><p>Algumas lendas urbanas contam que o jogo teria nascido em Portugal, na cidade de Almada no ano 545.</p>
+                <li><p>No entanto, só foi popularizado no ano 1500, pelo descobridor Pedro Álvares Cabral, que adorava jogar este jogo durante as suas viagens.</p></li>
+                <li><p>Álvares Cabral teria decidido que este jogo seria o primeiro a ser ensinado ao povo indígena no Brasil.</p></li>
+
+            </ul>
+
+            <p class="p-rodape">
+                <a href="https://pt.wikipedia.org/wiki/Jogo_da_velha" target="_blanck">Wikipedia, 2023</a>
+
+            </p>
+
+            <div class="game-board">
+                <div class="cell" id="cell-1"></div>
+                <div class="cell" id="cell-2"></div>
+                <div class="cell" id="cell-3"></div>
+                <div class="cell" id="cell-4"></div>
+                <div class="cell" id="cell-5"></div>
+                <div class="cell" id="cell-6"></div>
+                <div class="cell" id="cell-7"></div>
+                <div class="cell" id="cell-8"></div>
+                <div class="cell" id="cell-9"></div>
+
+            </div>
+        
+            <div class="game-info">
+                <p>Vez do jogador: <span id="current-player">X</span></p>
+
+                <p id="game-status"></p>
+
+                <button id="reset-button">Reiniciar Jogo</button>
+
+            </div>
+
+        </div>
+        
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>
