@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:wght@700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    background-color: #6990aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+h1 {
+    color: #442727;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.ul {
+    text-align: left;
+    font-size: 17.5px;
+
+}
+
+.p-rodape {
+    text-align: right;
+    font-size: 10px;
+
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.cell:hover {
+    background-color: #ccc;
+
+}
+
+.game-info {
+    margin-top: 20px;
+
+}
+
+.game-info p {
+    font-size: 17.5px;
+
+}
+
+#game-status {
+    font-weight: bold;
+    color: #d31313;
+    font-size: 27.5px;
+
+}
+
+#reset-button {
+    background-color: #1a921e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+#reset-button:hover {
+    background-color: #45a049;
+
+}
