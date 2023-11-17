@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgba(195,193,226,1) 0%, rgba(89,241,211,1) 45%, rgba(0,212,255,1) 100%);
+    font-family: 'Lora', serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 18.5px auto;
+    font-size: 45px;
+
+}
+
+p {
+    text-align: left;
+    font-size: 18.5px;
+
+}
+
+.gameboard, .scoreboard {
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 7.5px 2.5px 2.5px rgb(98, 99, 94);
+
+}
+
+.modality {
+    position: relative;
+    transition: all 0.5s
+
+}
+
+#image {
+    background-image: url('../img/startButton.jpg');
+    opacity: 1;
+    z-index: 1;
+
+}
+
+#gameboard {
+    position: relative;
+    margin: 18.5px auto;
+    background-color: rgb(219, 182, 49);
+
+}
+
+#scoreboard {
+    position: relative;
+    margin: 18.5px auto;
+    background-color: rgb(170, 206, 203);
+    background-image: url('../img/challengeYou.jpg');
+    opacity: 0;
+    z-index: -1;
+
+}
+
+.piece {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 10px;
+    transition: left 0.5s, top 0.5s;
+
+}
+
+
+.piece:hover {
+    border: inset;
+
+}
+
